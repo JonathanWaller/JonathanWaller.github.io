@@ -14,9 +14,9 @@ const IndexPage = () => (
       </h5>
 
       <h3 className="bold">
-        Full stack product engineer with 3 years' experience building products
-        for with a leading food tech company, an early stage fitness start up
-        and a leading SaaS provider.
+        I'm a full stack web developer based out of Dallas, Texas who builds
+        interactive and feature-rich web apps. I love a challenge and to push my
+        problem solving skills, whether in code or otherwise.
       </h3>
 
       <ExperienceSection />
