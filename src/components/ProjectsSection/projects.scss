@@ -1,0 +1,13 @@
+#projects__block {
+  // border: 1px solid red;
+  display: flex;
+  // width: 200;
+  width: 40vw;
+  // justify-content: space-around;
+}
+
+.projectBlock__wrapper {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+}
