@@ -12,7 +12,6 @@ class ExperienceUnit extends Component {
             style={{
               backgroundImage: `url(${this.props.logo})`,
               backgroundColor: this.props.colour
-              // backgroundColor: "#ffff"
             }}
           />
         </a>

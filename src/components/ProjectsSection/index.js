@@ -25,7 +25,7 @@ class ProjectsSection extends React.Component {
             logo={middleF}
             colour="#FFFFFF"
             title="Freelancer | Team App"
-            link="https://www.littlenomad.co/"
+            link="http://freelancer.waller-jonathan.com/"
             timeperiod="2018"
             subtitle="Web application which allows small businesses and freelancers (web developers/designers) to interact and source work in a common setting."
             skills1="JavaScript"

@@ -18,7 +18,6 @@ module.exports = {
   siteMetadata: {
     title: "Jonathan Waller",
     description: "Full Stack Web Developer",
-    keywords: "full stack, web developer, portfolio, personal website",
-    url: "https://www.praagya.com"
+    keywords: "full stack, web developer, portfolio, personal website"
   }
 };
