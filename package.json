@@ -1,17 +1,17 @@
 {
   "name": "Portfolio",
   "description": "Portfolio",
-  "homepage": "https://JonathanWaller.github.io/portfolio",
+  "homepage": "https://JonathanWaller.github.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/praagyajoshi/gatsby-starter-2column-portfolio"
+    "url": "https://github.com/JonathanWaller/JonathanWaller.github.io.git"
   },
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "serve": "gatsby serve"
   },
   "dependencies": {
