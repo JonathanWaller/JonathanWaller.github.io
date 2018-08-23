@@ -1,7 +1,7 @@
 {
-  "homepage": "http://JonathanWaller.github.io/portfolio",
-  "name": "gatsby-starter-2column-portfolio",
-  "description": "Gatsby 2 Column Portfolio Starter",
+  "name": "Portfolio",
+  "description": "Portfolio",
+  "homepage": "https://JonathanWaller.github.io/portfolio",
   "repository": {
     "type": "git",
     "url": "https://github.com/praagyajoshi/gatsby-starter-2column-portfolio"
@@ -10,9 +10,9 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "serve": "gatsby serve"
   },
   "dependencies": {
     "flexboxgrid": "^6.3.1",
