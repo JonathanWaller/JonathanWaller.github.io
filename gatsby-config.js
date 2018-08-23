@@ -19,5 +19,6 @@ module.exports = {
     title: "Jonathan Waller",
     description: "Full Stack Web Developer",
     keywords: "full stack, web developer, portfolio, personal website"
-  }
+  },
+  pathPrefix: "/portfolio"
 };

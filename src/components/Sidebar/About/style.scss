@@ -18,15 +18,16 @@ $margin-bottom: 40px;
   // border: 1px solid red;
 
   .image {
-    width: 180px;
+    width: 150px;
     max-width: $max-width;
-    height: 180px;
+    height: 150px;
     background-size: cover;
     background-image: url(../../../assets/images/jonathan.png);
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 50%;
     overflow: hidden;
+    // border: 1px solid green;
     // filter: grayscale(100%);
     // -webkit-filter: grayscale(100%); /* For Webkit browsers */
     // filter: gray; /* For IE 6 - 9 */

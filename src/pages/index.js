@@ -20,10 +20,20 @@ const IndexPage = () => (
       <h5 className="bold">
         I'm a full stack web developer based out of Dallas, Texas who builds
         <br />
-        interactive and feature-rich web apps. I love a challenge and pushing
+        interactive and feature-rich web apps.
+        {/* I love a challenge and pushing
         <br />
-        my problem solving abilities, whether in code or otherwise.
+        my problem solving abilities, whether in code or otherwise. */}
       </h5>
+      <div>
+        I've been fueled by problem solving and creative thinking since I was
+        young. I attempted to fill my passion for technology while working in
+        tech sales, but I was still missing the challenge and ability to express
+        myself creatively. When I realized I was enjoying writing code on nights
+        and weekends more than my full-time job, I knew it was time to make a
+        change. I now build full-stack web applications day and night and I
+        absolutely love it.
+      </div>
 
       <ExperienceSection />
       <ProjectsSection />
