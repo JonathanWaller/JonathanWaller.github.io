@@ -9,6 +9,7 @@ import restayyyLogo from "../../assets/images/projects/restayyy.png";
 import bigRestayLogo from "../../assets/images/projects/bigRestay.png";
 import capitalF from "../../assets/images/projects/capitalF.png";
 import middleF from "../../assets/images/projects/middleF.png";
+import freelancer from "../../assets/images/projects/Splash.png";
 
 import freelancerLogo from "../../assets/images/projects/freelancer.png";
 import walkthroughViewGif from "../../assets/images/projects/wvwalkthroughview-optimize.gif";
@@ -22,8 +23,9 @@ class ProjectsSection extends React.Component {
         <div className="row" id="projects__block">
           <ExperienceUnit
             // logo={littleNomadLogo}
-            logo={middleF}
-            colour="#FFFFFF"
+
+            logo={freelancer}
+            colour="rgb(127, 196, 253)"
             title="Freelancer | Team App"
             link="http://freelancer.waller-jonathan.com/"
             timeperiod="2018"

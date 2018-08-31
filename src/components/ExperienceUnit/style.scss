@@ -57,6 +57,29 @@
     font-size: 11px;
     border-radius: 5px;
   }
+  .projects__skills::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease-in-out;
+    // box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 2.5px 2.5px 25px rgba(0, 0, 0, 0.3);
+    content: "";
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+  }
+
+  .projects__skills:hover,
+  .projects__skills:focus {
+    transform: scale3d(1.006, 1.006, 1);
+  }
+  .projects__skills:hover::after,
+  .projects__skills:focus::after {
+    opacity: 1;
+  }
 
   @include media(">=medium", "<large") {
     .image {
