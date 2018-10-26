@@ -7,6 +7,7 @@ import littleNomadLogo from "../../assets/images/projects/little-nomad.png";
 import restayLogo from "../../assets/images/projects/restay.png";
 import restayyyLogo from "../../assets/images/projects/restayyy.png";
 import bigRestayLogo from "../../assets/images/projects/bigRestay.png";
+import laavish from "../../assets/images/projects/laavish.png";
 import capitalF from "../../assets/images/projects/capitalF.png";
 import middleF from "../../assets/images/projects/middleF.png";
 import freelancer from "../../assets/images/projects/Splash.png";
@@ -21,22 +22,6 @@ class ProjectsSection extends React.Component {
     return (
       <Section title="Projects">
         <div className="row" id="projects__block">
-          <ExperienceUnit
-            // logo={littleNomadLogo}
-
-            logo={freelancer}
-            colour="rgb(127, 196, 253)"
-            title="Freelancer | Team App"
-            link="http://freelancer.waller-jonathan.com/"
-            timeperiod="2018"
-            subtitle="Web application which allows small businesses and freelancers (web developers/designers) to interact and source work in a common setting."
-            skills1="JavaScript"
-            skills2="React"
-            skills3="Redux"
-            skills4="Node.js"
-            skills5="Express"
-            skills6="PostgreSQL"
-          />
           <ExperienceUnit
             logo={bigRestayLogo}
             colour="#FFFFFF"
@@ -55,6 +40,38 @@ class ProjectsSection extends React.Component {
             skills9="Mobile-Responsive"
             skills10="Auth0"
           />
+          <ExperienceUnit
+            logo={laavish}
+            colour="#FFFFFF"
+            title="Laavish | Individual App"
+            link="http://www.shoplaavish.online"
+            timeperiod="2018"
+            subtitle="Ecommerce site dedicated to men's fashion and accessories."
+            skills1="JavaScript"
+            skills2="React"
+            skills3="Redux"
+            skills4="Node.js"
+            skills5="Express"
+            skills6="SQL"
+            skills7="Session"
+            skills8="Mobile-Responsive"
+          />
+
+          <ExperienceUnit
+            logo={freelancer}
+            colour="rgb(127, 196, 253)"
+            title="Freelancer | Team App"
+            link="http://freelancer.waller-jonathan.com/"
+            timeperiod="2018"
+            subtitle="Web application which allows small businesses and freelancers (web developers/designers) to interact and source work in a common setting."
+            skills1="JavaScript"
+            skills2="React"
+            skills3="Redux"
+            skills4="Node.js"
+            skills5="Express"
+            skills6="SQL"
+          />
+
           {/* <ExperienceUnit
             logo={restayLogo}
             colour="#312F31"
